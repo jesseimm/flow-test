@@ -1,5 +1,5 @@
 /* @flow */
-function jee(x: number): number {
+function joo(x: number) {
     console.log(x);
 }
 
@@ -8,5 +8,5 @@ jee('1');
 */
 
 //valid
-jee(1);
+joo(1);
 
