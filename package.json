@@ -1,0 +1,26 @@
+{
+  "name": "jee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jee.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-flowtype": "^2.49.3",
+    "eslint-plugin-react": "^7.8.2",
+    "flow": "^0.2.3",
+    "flow-bin": "^0.73.0",
+    "prettier": "^1.13.4"
+  },
+  "dependencies": {
+    "jshint": "^2.9.5"
+  }
+}
